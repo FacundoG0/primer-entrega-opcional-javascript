@@ -53,13 +53,13 @@ if (ingreso === 2){
 }
 
 // *******************************DEPORTES**********************************
-if (ingreso === 2){
-    alert("¿Quién fue el primer hombre en pisar la luna?");
-    let respuesta_historia = parseInt(prompt("1) Federich Tereshckova 2) Neil Amstrong 3) Edvard Munch 4) Tom Cruise"));
+if (ingreso === 3){
+    alert("En el boxeo: ¿Qué significa 'TKO'?");
+    respuesta_deportes = parseInt(prompt("1) Technical knockout 2) Total Knockout 3) Terminal Knockout 4) Opponent kicked"));
     
-    for (respuesta_historia; respuesta_historia != 2;){
+    for (respuesta_deportes; respuesta_deportes != 1;){
         alert("¡Ups! Respuesta incorrecta, intente nuevamente");
-        respuesta_historia = parseInt(prompt("1) Federich Tereshckova 2) Neil Amstrong 3) Edvard Munch 4) Tom Cruise"));
+        respuesta_deportes = parseInt(prompt("1) Technical knockout 2) Total Knockout 3) Terminal Knockout 4) Opponent kicked"));
     }
 
     alert("¡Muy Bien! ¡Sigue así!");
