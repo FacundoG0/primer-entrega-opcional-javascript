@@ -85,7 +85,7 @@ if (ingreso === 3){
 }
 
 // *******************************CIENCIAS**********************************
-if (ingreso === 3){
+if (ingreso === 4){
     alert("¿Cuál fue la primera computadora que se inventó?");
     let respuesta_ciencias = parseInt(prompt("1) Superordenador Fugaku 2) Computadora personal 3) ENIAC 4) iMac"));
     
